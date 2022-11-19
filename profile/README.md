@@ -11,7 +11,7 @@
     - `votes_up`
 - 역할 분담
     - 데이터셋 추출 : `@fender2758`
-    - LightFm 기반 추천 시스템 엔진 개발 : `@DoDoran`
+    - LightFm 기반 추천 시스템 엔진 개발 : `@DoDoron`
     - ndcg 평가 기법 적용 성능 평가 및 개선점 도출 : `@jycforest29`
 - 개발 계획
     
