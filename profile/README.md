@@ -9,7 +9,7 @@
 - item_features는 사용하지 않음(생각보다 votes_up 사용이 애매함)
 - 대부분 코드는 공식문서 참고. 하지만 데이터셋 빌드하는 과정을 공식문서에 예제로 나와있지 않아서 거의 임의로 진행(확인 요청드립니다.)
 
--> 하지만 precision@k 방법으로 평가했을 때 현재 정확도가 매우 낮음
+-> 하지만 precision@k 방법으로 평가했을 때 현재 정확도가 매우 낮음(AUC는 예제 2만 평가해봤는데 높은 것 같음)
 
 - 예시 1
     ```python
@@ -26,6 +26,8 @@
     model.fit(train, item_features=None, user_features=user_features, epochs = 10, num_threads = 4) # 에포크 2회 -> 10회
     ```
     ![image](https://user-images.githubusercontent.com/103106183/205479573-0b17d494-6048-4af1-b79b-fb184c9994a8.png)
+    ![image](https://user-images.githubusercontent.com/103106183/205480101-d7fead16-4cee-4e85-b2e7-3f9686ad17c9.png)
+
 
 # 회의록
 
