@@ -26,6 +26,7 @@
     model.fit(train, item_features=None, user_features=user_features, epochs = 10, num_threads = 4) # 에포크 2회 -> 10회
     ```
     ![image](https://user-images.githubusercontent.com/103106183/205479573-0b17d494-6048-4af1-b79b-fb184c9994a8.png)
+    
     ![image](https://user-images.githubusercontent.com/103106183/205480101-d7fead16-4cee-4e85-b2e7-3f9686ad17c9.png)
 
 
