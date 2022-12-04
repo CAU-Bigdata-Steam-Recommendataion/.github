@@ -3,7 +3,8 @@
 - 기존 7개의 데이터로 훈련시킨(정확히는 7개의 80%) 모델에서 전체 데이터셋으로 확장해서 훈련시킴(전체 데이터의 80% 사용)
 - user_features로 playtime_forever 추가
 - item_features는 None으로 설정
--> 정확도가 매우 낮음
+
+-> 하지만 precision@k 방법으로 평가했을 때 현재 정확도가 매우 낮음
 
 ![image](https://user-images.githubusercontent.com/103106183/205478506-d73c1552-9784-4cf9-9cb4-79e4eee300e2.png)
 
