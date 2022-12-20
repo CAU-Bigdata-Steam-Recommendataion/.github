@@ -1,6 +1,3 @@
-# 최종
-결과물 위치 : ndcg_evalutation/Lightfm_steam_Test3_hyonj.ipynb
-
 # 해야할 것들
 - 정확도 올리기(생각한 것들)
     - user_features로 playtime_at_review / playtime_forever 적용
