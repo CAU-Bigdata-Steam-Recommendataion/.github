@@ -1,3 +1,15 @@
+# 프로젝트 소개
+- 개요
+   - 중앙대학교 빅데이터 수업에서 진행한 팀프로젝트
+- 인원
+   - 3명
+- 주제
+   - 스팀 게임 리뷰 데이터를 활용한 추천 시스템
+- 구현 방법
+   - lightFm 라이브러리를 사용해 구현
+- 평가 방법
+   - precision@k, roc, ndcg
+
 # 해야할 것들
 - 정확도 올리기(생각한 것들)
     - user_features로 playtime_at_review / playtime_forever 적용
